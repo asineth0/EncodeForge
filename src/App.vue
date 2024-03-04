@@ -122,7 +122,7 @@ import { dialog, fs, shell, path } from "@tauri-apps/api";
 import { Ref, nextTick, onMounted, ref } from "vue";
 import { FolderOpenIcon } from "@heroicons/vue/24/outline";
 
-const inputDir = ref("C:\\Users\\Asineth\\Videos\\Palworld");
+const inputDir = ref("");
 const outputDir = ref("");
 const videoEncoder = ref("libx264");
 const videoPreset = ref("hq");
