@@ -1,6 +1,6 @@
 [package]
 name = "encodeforge"
-version = "0.0.0"
+version = "0.0.1"
 description = "EncodeForge"
 authors = ["asineth0"]
 edition = "2021"
