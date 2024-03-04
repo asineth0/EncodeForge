@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white text-sm;
+}
+
+::-webkit-progress-bar {
+  @apply bg-gray-800;
+}
+
+::-webkit-progress-value {
+  @apply bg-gradient-to-r from-purple-500 to-purple-400;
+}
+
+::-webkit-scrollbar {
+  @apply bg-black/65 w-2 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500/35 rounded-full;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("./assets/Inconsolata-VariableFont_wdth,wght.ttf");
+}
